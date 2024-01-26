@@ -1,6 +1,6 @@
 {
   "name": "rubic-snap",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "The 'Hello, world!' of MetaMask Snaps, now written in TypeScript.",
   "repository": {
     "type": "git",
@@ -29,8 +29,7 @@
   "dependencies": {
     "@metamask/snaps-types": "^3.0.1",
     "@metamask/snaps-ui": "^3.0.1",
-    "buffer": "^6.0.3",
-    "rubic-sdk": "^4.36.0"
+    "buffer": "^6.0.3"
   },
   "devDependencies": {
     "@jest/globals": "^29.5.0",
