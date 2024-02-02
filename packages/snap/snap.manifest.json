@@ -1,13 +1,13 @@
 {
-  "version": "0.1.5",
-  "description": "An example Snap written in TypeScript.",
+  "version": "0.3.0",
+  "description": "Rubic extension to calculate swaps best rate.",
   "proposedName": "Rubic",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/Cryptorubic/rubic-snap-frontend.git"
   },
   "source": {
-    "shasum": "TMVwcDiH1RTPbK44UEY6cTAM9V76jiKf4o0lVmh5V20=",
+    "shasum": "ERJlKrgFpxDLhPzgOg4l+v5i4okWev1QEvIp3cEXjlg=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",

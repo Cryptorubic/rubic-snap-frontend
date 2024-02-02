@@ -1,10 +1,10 @@
 {
   "name": "rubic-snap",
-  "version": "0.1.5",
-  "description": "The 'Hello, world!' of MetaMask Snaps, now written in TypeScript.",
+  "version": "0.3.0",
+  "description": "Rubic snap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/Cryptorubic/rubic-snap-frontend.git"
   },
   "license": "(MIT-0 OR Apache-2.0)",
   "main": "./dist/bundle.js",
@@ -29,8 +29,7 @@
   "dependencies": {
     "@metamask/snaps-types": "^3.0.1",
     "@metamask/snaps-ui": "^3.0.1",
-    "buffer": "^6.0.3",
-    "rubic-sdk": "^4.36.0"
+    "buffer": "^6.0.3"
   },
   "devDependencies": {
     "@jest/globals": "^29.5.0",
