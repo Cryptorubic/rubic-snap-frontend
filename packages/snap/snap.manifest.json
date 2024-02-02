@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Rubic extension to calculate swaps best rate.",
   "proposedName": "Rubic",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/Cryptorubic/rubic-snap-frontend.git"
   },
   "source": {
-    "shasum": "ERJlKrgFpxDLhPzgOg4l+v5i4okWev1QEvIp3cEXjlg=",
+    "shasum": "4SgmJfaCXIeEL7ovzWkIEC/QM1GtCU1QQFpNMskVRes=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
