@@ -5,6 +5,10 @@ module.exports = {
     tsconfigRootDir: __dirname,
   },
 
+  rules: {
+    '@typescript-eslint/naming-convention': 'off',
+  },
+
   overrides: [
     {
       files: ['snap.config.ts'],
