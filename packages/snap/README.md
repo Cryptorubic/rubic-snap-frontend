@@ -14,5 +14,5 @@ The folder contains typescript interfaces, that are used in the snap.
 ### /src/utils
 The folder contains snap helper services. API service helps to send request to our backend. Image service helps to find right image to display, based on API response status..
 
-### index.js
+### /src/index.ts
 The main file containing the logic for processing transaction data and building the user interface.
