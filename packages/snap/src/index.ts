@@ -1,6 +1,7 @@
 import type { OnTransactionHandler } from '@metamask/snaps-types';
 import { copyable, image, panel, text } from '@metamask/snaps-ui';
 
+import { instruction } from './consts/instruction';
 import type { ApiRequest } from './models/api-request';
 import type { MmNode } from './models/mm-node';
 import { SNAP_STATUS } from './models/snap-status';
@@ -39,15 +40,8 @@ export const onTransaction: OnTransactionHandler = async ({
         copyable(linkText),
       );
       if (query) {
-        displayNodes.push(
-          text(' '),
-          text('How to do it:'),
-          text('1. Copy the link above.'),
-          text('2. Reject this transaction.'),
-          text('3. Open the new tab in your browser and copy paste the link.'),
-          text('4. Start a new transaction on Rubic.'),
-          text('5. Confirm a new transaction.'),
-        );
+        const instructionNodes = instruction.map((step) => text(step));
+        displayNodes.push(...instructionNodes);
       }
     }
 
