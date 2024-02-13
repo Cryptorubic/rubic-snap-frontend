@@ -5,7 +5,7 @@ export const fetchApiResponse: (
   request: ApiRequest,
 ) => Promise<ApiResponse> = async (request) => {
   const apiKey = '2nvg294nr93fmweifm29brbengvn395tb4bnemf39rnvdjnveub3';
-  const response = await fetch(
+  const responsePromise = fetch(
     `https://snap-api.rubic.exchange/calculate?apikey=${apiKey}`,
     {
       method: 'POST',
@@ -13,5 +13,13 @@ export const fetchApiResponse: (
       body: JSON.stringify(request),
     },
   );
-  return response.json();
+  const timeoutPromise = new Promise<null>((resolve) =>
+    setTimeout(() => resolve(null), 10_000),
+  );
+
+  const result = await Promise.race([responsePromise, timeoutPromise]);
+  if (!result) {
+    throw new Error('Timeout error');
+  }
+  return result.json();
 };

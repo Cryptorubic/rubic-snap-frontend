@@ -20,7 +20,6 @@ const config: SnapConfig = {
     url: true,
     punycode: true,
     stream: true,
-    // eslint-disable-next-line @typescript-eslint/naming-convention
     string_decoder: true,
   },
 };

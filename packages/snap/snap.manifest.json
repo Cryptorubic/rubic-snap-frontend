@@ -1,13 +1,13 @@
 {
-  "version": "0.3.3",
-  "description": "Rubic extension to calculate swaps best rate.",
+  "version": "0.3.4",
+  "description": "Rubic’s Best Rate Finder: instantaneously compare your swap on 200+ DEXs to find the best rate every time.",
   "proposedName": "Rubic",
   "repository": {
     "type": "git",
     "url": "https://github.com/Cryptorubic/rubic-snap-frontend.git"
   },
   "source": {
-    "shasum": "+E6MHaIAp/jiiS6OkOcChVJONqgBFhBNWi4HGDitM74=",
+    "shasum": "yE9qPSWYZ9/SbTPT7yhV1CR84blFLFJWq3P8EwATZEo=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
