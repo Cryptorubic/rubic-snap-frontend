@@ -13,6 +13,17 @@
     "images/",
     "snap.manifest.json"
   ],
+  "keywords": [
+    "Ethereum",
+    "Rubic",
+    "on-chain",
+    "dApp",
+    "DEX",
+    "Polygon",
+    "Binance-Smart-Chain",
+    "Metamask",
+    "Snap"
+  ],
   "scripts": {
     "allow-scripts": "yarn workspace root allow-scripts",
     "build": "mm-snap build",
