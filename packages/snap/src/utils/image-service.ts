@@ -22,7 +22,7 @@ export const getImageCode: (
     return wrongNetwork;
   }
   if (status === SNAP_STATUS.TRADE_CALCULATED) {
-    if (tokensProfit && tokensProfit > 0 && usdProfit) {
+    if ((tokensProfit && tokensProfit > 0) || (usdProfit && usdProfit > 0)) {
       return success1;
     }
     if (tokensProfit && tokensProfit < 0) {

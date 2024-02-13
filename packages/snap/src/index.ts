@@ -34,11 +34,7 @@ export const onTransaction: OnTransactionHandler = async ({
 
     if (status !== SNAP_STATUS.ALREADY_ON_RUBIC) {
       const linkText = `https://app.rubic.exchange/${query ?? ''}`;
-      displayNodes.push(
-        text('Try it out on Rubic.exchange'),
-        text(''),
-        copyable(linkText),
-      );
+      displayNodes.push(copyable(linkText));
       if (query) {
         const instructionNodes = instruction.map((step) => text(step));
         displayNodes.push(...instructionNodes);
