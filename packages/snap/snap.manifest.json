@@ -1,5 +1,5 @@
 {
-  "version": "0.3.6",
+  "version": "0.3.9",
   "description": "Rubic’s Best Rate Finder: instantaneously compare your swap on 200+ DEXs to find the best rate every time.",
   "proposedName": "Rubic",
   "repository": {
@@ -7,7 +7,7 @@
     "url": "https://github.com/Cryptorubic/rubic-snap-frontend.git"
   },
   "source": {
-    "shasum": "1aXjKINdt6e/FFUv6oPvDinLyWZ472ubvNtBDrzEHLM=",
+    "shasum": "cOO5RTsoDz+1XWQwti/r8+N6a95a9kmouNtiYeLa6QU=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
