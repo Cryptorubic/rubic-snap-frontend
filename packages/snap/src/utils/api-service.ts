@@ -6,7 +6,7 @@ export const fetchApiResponse: (
 ) => Promise<ApiResponse> = async (request) => {
   const apiKey = '2nvg294nr93fmweifm29brbengvn395tb4bnemf39rnvdjnveub3';
   const responsePromise = fetch(
-    `https://snap-api.rubic.exchange/calculate?apikey=${apiKey}`,
+    `https://snap-api.rubic.finance/calculate?apikey=${apiKey}`,
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },

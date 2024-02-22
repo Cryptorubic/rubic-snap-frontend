@@ -1,6 +1,6 @@
 {
   "name": "rubic-snap",
-  "version": "0.3.6",
+  "version": "0.3.9",
   "description": "Rubic’s Best Rate Finder: instantaneously compare your swap on 200+ DEXs to find the best rate every time.",
   "repository": {
     "type": "git",
