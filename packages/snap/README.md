@@ -1,3 +1,9 @@
+## Audit
+
+Rubic Snap were audited by [Cure53](https://cure53.de/)
+
+[REPORT](https://cure53.de/pentest-report_rubic-snap.pdf)
+
 # Rubic’s Best Rate Finder
 
 Rubic’s Best Rate Finder: instantaneously compare your swap on 200+ DEXs to find the best rate every time.
