@@ -1,11 +1,10 @@
 {
   "name": "rubic-snap",
-  "version": "0.2.0",
-  "description": "Rubic snap",
+  "version": "0.4.0",
+  "description": "Rubic’s Best Rate Finder: instantaneously compare your swap on 200+ DEXs to find the best rate every time.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Cryptorubic/rubic-snap-frontend.git",
-    "directory": "packages/snap"
+    "url": "https://github.com/Cryptorubic/rubic-snap-frontend.git"
   },
   "license": "(MIT-0 OR Apache-2.0)",
   "main": "./dist/bundle.js",
@@ -13,6 +12,17 @@
     "dist/",
     "images/",
     "snap.manifest.json"
+  ],
+  "keywords": [
+    "Ethereum",
+    "Rubic",
+    "on-chain",
+    "dApp",
+    "DEX",
+    "Polygon",
+    "Binance-Smart-Chain",
+    "Metamask",
+    "Snap"
   ],
   "scripts": {
     "allow-scripts": "yarn workspace root allow-scripts",
