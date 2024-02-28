@@ -1,6 +1,6 @@
 ## Audit
 
-Rubic Snap were audited by [Cure54](https://cure53.de/)
+Rubic Snap were audited by [Cure53](https://cure53.de/)
 
 [REPORT](https://cure53.de/pentest-report_rubic-snap.pdf)
 
