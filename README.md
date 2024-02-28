@@ -1,3 +1,9 @@
+## Audit
+
+Rubic Snap were audited by [Cure54](https://cure53.de/)
+
+[REPORT](https://cure53.de/pentest-report_rubic-snap.pdf)
+
 # @metamask/template-snap-monorepo
 
 This repository demonstrates how to develop a snap with TypeScript. For detailed
